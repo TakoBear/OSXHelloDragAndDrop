@@ -11,13 +11,16 @@
 		09C1CB0D191E23B800E587FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB0B191E23B800E587FC /* InfoPlist.strings */; };
 		09C1CB0F191E23B800E587FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1CB0E191E23B800E587FC /* main.m */; };
 		09C1CB13191E23B800E587FC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB11191E23B800E587FC /* Credits.rtf */; };
-		09C1CB16191E23B800E587FC /* bearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1CB15191E23B800E587FC /* bearAppDelegate.m */; };
 		09C1CB19191E23B800E587FC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB17191E23B800E587FC /* MainMenu.xib */; };
 		09C1CB1B191E23B800E587FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB1A191E23B800E587FC /* Images.xcassets */; };
 		09C1CB22191E23B800E587FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C1CB21191E23B800E587FC /* XCTest.framework */; };
 		09C1CB23191E23B800E587FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C1CB02191E23B800E587FC /* Cocoa.framework */; };
 		09C1CB2B191E23B800E587FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB29191E23B800E587FC /* InfoPlist.strings */; };
 		09C1CB2D191E23B800E587FC /* HelloDragAndDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1CB2C191E23B800E587FC /* HelloDragAndDropTests.m */; };
+		09C1CB39191E23F200E587FC /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1CB37191E23F200E587FC /* MainWindowController.m */; };
+		09C1CB3A191E23F200E587FC /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB38191E23F200E587FC /* MainWindowController.xib */; };
+		09C1CB3D191E241B00E587FC /* bearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1CB3C191E241B00E587FC /* bearAppDelegate.m */; };
+		09C1CB43191E25CB00E587FC /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1CB42191E25CB00E587FC /* DragView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +44,6 @@
 		09C1CB0E191E23B800E587FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09C1CB10191E23B800E587FC /* HelloDragAndDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloDragAndDrop-Prefix.pch"; sourceTree = "<group>"; };
 		09C1CB12191E23B800E587FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		09C1CB14191E23B800E587FC /* bearAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bearAppDelegate.h; sourceTree = "<group>"; };
-		09C1CB15191E23B800E587FC /* bearAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bearAppDelegate.m; sourceTree = "<group>"; };
 		09C1CB18191E23B800E587FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		09C1CB1A191E23B800E587FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		09C1CB20191E23B800E587FC /* HelloDragAndDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloDragAndDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +51,13 @@
 		09C1CB28191E23B800E587FC /* HelloDragAndDropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloDragAndDropTests-Info.plist"; sourceTree = "<group>"; };
 		09C1CB2A191E23B800E587FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09C1CB2C191E23B800E587FC /* HelloDragAndDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDragAndDropTests.m; sourceTree = "<group>"; };
+		09C1CB36191E23F200E587FC /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		09C1CB37191E23F200E587FC /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		09C1CB38191E23F200E587FC /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		09C1CB3B191E241B00E587FC /* bearAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bearAppDelegate.h; sourceTree = "<group>"; };
+		09C1CB3C191E241B00E587FC /* bearAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bearAppDelegate.m; sourceTree = "<group>"; };
+		09C1CB41191E25CB00E587FC /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		09C1CB42191E25CB00E587FC /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +123,11 @@
 		09C1CB08191E23B800E587FC /* HelloDragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
-				09C1CB14191E23B800E587FC /* bearAppDelegate.h */,
-				09C1CB15191E23B800E587FC /* bearAppDelegate.m */,
-				09C1CB17191E23B800E587FC /* MainMenu.xib */,
+				09C1CB40191E258200E587FC /* Views */,
+				09C1CB3E191E241E00E587FC /* Controllers */,
+				09C1CB3F191E242400E587FC /* Resources */,
+				09C1CB3B191E241B00E587FC /* bearAppDelegate.h */,
+				09C1CB3C191E241B00E587FC /* bearAppDelegate.m */,
 				09C1CB1A191E23B800E587FC /* Images.xcassets */,
 				09C1CB09191E23B800E587FC /* Supporting Files */,
 			);
@@ -152,6 +162,33 @@
 				09C1CB29191E23B800E587FC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09C1CB3E191E241E00E587FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CB36191E23F200E587FC /* MainWindowController.h */,
+				09C1CB37191E23F200E587FC /* MainWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		09C1CB3F191E242400E587FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CB38191E23F200E587FC /* MainWindowController.xib */,
+				09C1CB17191E23B800E587FC /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		09C1CB40191E258200E587FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CB41191E25CB00E587FC /* DragView.h */,
+				09C1CB42191E25CB00E587FC /* DragView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +272,7 @@
 				09C1CB1B191E23B800E587FC /* Images.xcassets in Resources */,
 				09C1CB13191E23B800E587FC /* Credits.rtf in Resources */,
 				09C1CB19191E23B800E587FC /* MainMenu.xib in Resources */,
+				09C1CB3A191E23F200E587FC /* MainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C1CB16191E23B800E587FC /* bearAppDelegate.m in Sources */,
+				09C1CB39191E23F200E587FC /* MainWindowController.m in Sources */,
+				09C1CB3D191E241B00E587FC /* bearAppDelegate.m in Sources */,
+				09C1CB43191E25CB00E587FC /* DragView.m in Sources */,
 				09C1CB0F191E23B800E587FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
