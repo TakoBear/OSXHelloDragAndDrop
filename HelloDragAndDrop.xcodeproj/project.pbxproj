@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C1CB03191E23B800E587FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C1CB02191E23B800E587FC /* Cocoa.framework */; };
+		09C1CB0D191E23B800E587FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB0B191E23B800E587FC /* InfoPlist.strings */; };
+		09C1CB0F191E23B800E587FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1CB0E191E23B800E587FC /* main.m */; };
+		09C1CB13191E23B800E587FC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB11191E23B800E587FC /* Credits.rtf */; };
+		09C1CB16191E23B800E587FC /* bearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1CB15191E23B800E587FC /* bearAppDelegate.m */; };
+		09C1CB19191E23B800E587FC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB17191E23B800E587FC /* MainMenu.xib */; };
+		09C1CB1B191E23B800E587FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB1A191E23B800E587FC /* Images.xcassets */; };
+		09C1CB22191E23B800E587FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C1CB21191E23B800E587FC /* XCTest.framework */; };
+		09C1CB23191E23B800E587FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C1CB02191E23B800E587FC /* Cocoa.framework */; };
+		09C1CB2B191E23B800E587FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CB29191E23B800E587FC /* InfoPlist.strings */; };
+		09C1CB2D191E23B800E587FC /* HelloDragAndDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1CB2C191E23B800E587FC /* HelloDragAndDropTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09C1CB24191E23B800E587FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C1CAF7191E23B800E587FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C1CAFE191E23B800E587FC;
+			remoteInfo = HelloDragAndDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C1CAFF191E23B800E587FC /* HelloDragAndDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloDragAndDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C1CB02191E23B800E587FC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		09C1CB05191E23B800E587FC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		09C1CB06191E23B800E587FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09C1CB07191E23B800E587FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09C1CB0A191E23B800E587FC /* HelloDragAndDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloDragAndDrop-Info.plist"; sourceTree = "<group>"; };
+		09C1CB0C191E23B800E587FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09C1CB0E191E23B800E587FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09C1CB10191E23B800E587FC /* HelloDragAndDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloDragAndDrop-Prefix.pch"; sourceTree = "<group>"; };
+		09C1CB12191E23B800E587FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		09C1CB14191E23B800E587FC /* bearAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bearAppDelegate.h; sourceTree = "<group>"; };
+		09C1CB15191E23B800E587FC /* bearAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bearAppDelegate.m; sourceTree = "<group>"; };
+		09C1CB18191E23B800E587FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		09C1CB1A191E23B800E587FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		09C1CB20191E23B800E587FC /* HelloDragAndDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloDragAndDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C1CB21191E23B800E587FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		09C1CB28191E23B800E587FC /* HelloDragAndDropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloDragAndDropTests-Info.plist"; sourceTree = "<group>"; };
+		09C1CB2A191E23B800E587FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09C1CB2C191E23B800E587FC /* HelloDragAndDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDragAndDropTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C1CAFC191E23B800E587FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1CB03191E23B800E587FC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C1CB1D191E23B800E587FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1CB23191E23B800E587FC /* Cocoa.framework in Frameworks */,
+				09C1CB22191E23B800E587FC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C1CAF6191E23B800E587FC = {
+			isa = PBXGroup;
+			children = (
+				09C1CB08191E23B800E587FC /* HelloDragAndDrop */,
+				09C1CB26191E23B800E587FC /* HelloDragAndDropTests */,
+				09C1CB01191E23B800E587FC /* Frameworks */,
+				09C1CB00191E23B800E587FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C1CB00191E23B800E587FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CAFF191E23B800E587FC /* HelloDragAndDrop.app */,
+				09C1CB20191E23B800E587FC /* HelloDragAndDropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C1CB01191E23B800E587FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CB02191E23B800E587FC /* Cocoa.framework */,
+				09C1CB21191E23B800E587FC /* XCTest.framework */,
+				09C1CB04191E23B800E587FC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09C1CB04191E23B800E587FC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CB05191E23B800E587FC /* AppKit.framework */,
+				09C1CB06191E23B800E587FC /* CoreData.framework */,
+				09C1CB07191E23B800E587FC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		09C1CB08191E23B800E587FC /* HelloDragAndDrop */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CB14191E23B800E587FC /* bearAppDelegate.h */,
+				09C1CB15191E23B800E587FC /* bearAppDelegate.m */,
+				09C1CB17191E23B800E587FC /* MainMenu.xib */,
+				09C1CB1A191E23B800E587FC /* Images.xcassets */,
+				09C1CB09191E23B800E587FC /* Supporting Files */,
+			);
+			path = HelloDragAndDrop;
+			sourceTree = "<group>";
+		};
+		09C1CB09191E23B800E587FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CB0A191E23B800E587FC /* HelloDragAndDrop-Info.plist */,
+				09C1CB0B191E23B800E587FC /* InfoPlist.strings */,
+				09C1CB0E191E23B800E587FC /* main.m */,
+				09C1CB10191E23B800E587FC /* HelloDragAndDrop-Prefix.pch */,
+				09C1CB11191E23B800E587FC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09C1CB26191E23B800E587FC /* HelloDragAndDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CB2C191E23B800E587FC /* HelloDragAndDropTests.m */,
+				09C1CB27191E23B800E587FC /* Supporting Files */,
+			);
+			path = HelloDragAndDropTests;
+			sourceTree = "<group>";
+		};
+		09C1CB27191E23B800E587FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C1CB28191E23B800E587FC /* HelloDragAndDropTests-Info.plist */,
+				09C1CB29191E23B800E587FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C1CAFE191E23B800E587FC /* HelloDragAndDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C1CB30191E23B800E587FC /* Build configuration list for PBXNativeTarget "HelloDragAndDrop" */;
+			buildPhases = (
+				09C1CAFB191E23B800E587FC /* Sources */,
+				09C1CAFC191E23B800E587FC /* Frameworks */,
+				09C1CAFD191E23B800E587FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloDragAndDrop;
+			productName = HelloDragAndDrop;
+			productReference = 09C1CAFF191E23B800E587FC /* HelloDragAndDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09C1CB1F191E23B800E587FC /* HelloDragAndDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C1CB33191E23B800E587FC /* Build configuration list for PBXNativeTarget "HelloDragAndDropTests" */;
+			buildPhases = (
+				09C1CB1C191E23B800E587FC /* Sources */,
+				09C1CB1D191E23B800E587FC /* Frameworks */,
+				09C1CB1E191E23B800E587FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C1CB25191E23B800E587FC /* PBXTargetDependency */,
+			);
+			name = HelloDragAndDropTests;
+			productName = HelloDragAndDropTests;
+			productReference = 09C1CB20191E23B800E587FC /* HelloDragAndDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C1CAF7191E23B800E587FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bear;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TakoBear;
+				TargetAttributes = {
+					09C1CB1F191E23B800E587FC = {
+						TestTargetID = 09C1CAFE191E23B800E587FC;
+					};
+				};
+			};
+			buildConfigurationList = 09C1CAFA191E23B800E587FC /* Build configuration list for PBXProject "HelloDragAndDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C1CAF6191E23B800E587FC;
+			productRefGroup = 09C1CB00191E23B800E587FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C1CAFE191E23B800E587FC /* HelloDragAndDrop */,
+				09C1CB1F191E23B800E587FC /* HelloDragAndDropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C1CAFD191E23B800E587FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1CB0D191E23B800E587FC /* InfoPlist.strings in Resources */,
+				09C1CB1B191E23B800E587FC /* Images.xcassets in Resources */,
+				09C1CB13191E23B800E587FC /* Credits.rtf in Resources */,
+				09C1CB19191E23B800E587FC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C1CB1E191E23B800E587FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1CB2B191E23B800E587FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C1CAFB191E23B800E587FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1CB16191E23B800E587FC /* bearAppDelegate.m in Sources */,
+				09C1CB0F191E23B800E587FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C1CB1C191E23B800E587FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1CB2D191E23B800E587FC /* HelloDragAndDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09C1CB25191E23B800E587FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C1CAFE191E23B800E587FC /* HelloDragAndDrop */;
+			targetProxy = 09C1CB24191E23B800E587FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09C1CB0B191E23B800E587FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C1CB0C191E23B800E587FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09C1CB11191E23B800E587FC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C1CB12191E23B800E587FC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		09C1CB17191E23B800E587FC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C1CB18191E23B800E587FC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		09C1CB29191E23B800E587FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C1CB2A191E23B800E587FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09C1CB2E191E23B800E587FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09C1CB2F191E23B800E587FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09C1CB31191E23B800E587FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDragAndDrop/HelloDragAndDrop-Prefix.pch";
+				INFOPLIST_FILE = "HelloDragAndDrop/HelloDragAndDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09C1CB32191E23B800E587FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDragAndDrop/HelloDragAndDrop-Prefix.pch";
+				INFOPLIST_FILE = "HelloDragAndDrop/HelloDragAndDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		09C1CB34191E23B800E587FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloDragAndDrop.app/Contents/MacOS/HelloDragAndDrop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDragAndDrop/HelloDragAndDrop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloDragAndDropTests/HelloDragAndDropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		09C1CB35191E23B800E587FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloDragAndDrop.app/Contents/MacOS/HelloDragAndDrop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDragAndDrop/HelloDragAndDrop-Prefix.pch";
+				INFOPLIST_FILE = "HelloDragAndDropTests/HelloDragAndDropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C1CAFA191E23B800E587FC /* Build configuration list for PBXProject "HelloDragAndDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C1CB2E191E23B800E587FC /* Debug */,
+				09C1CB2F191E23B800E587FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C1CB30191E23B800E587FC /* Build configuration list for PBXNativeTarget "HelloDragAndDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C1CB31191E23B800E587FC /* Debug */,
+				09C1CB32191E23B800E587FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09C1CB33191E23B800E587FC /* Build configuration list for PBXNativeTarget "HelloDragAndDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C1CB34191E23B800E587FC /* Debug */,
+				09C1CB35191E23B800E587FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C1CAF7191E23B800E587FC /* Project object */;
+}
